@@ -13,7 +13,7 @@ In this part, I created a Python script to visualize the weather of 500+ cities 
 * Cloudiness (%) vs. Latitude
 ![cloudinessvslat](WeatherPy/output_data/LatVsCloudinessPlot.png)
 
-* Wind Speed (mph) vs. Latitude - Northern Hemisphere
+* Wind Speed (mph) vs. Latitude
 ![windvslat](WeatherPy/output_data/LatVsWindSpeedPlot.png)
 
 The second requirement is to run linear regression on each relationship. This time, the plots are separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
@@ -50,12 +50,10 @@ Used jupyter-gmaps and the Google Places API for this part of the assignment.
 To complete this part of the assignment, I did the following:
 
 * Created a heat map that displays the humidity for every city from Part I.
-![heatmap](VacationPy/HeatMap_screenshot/HeatMap.png)
 
 * Narrowed down the DataFrame to find ideal weather condition. 
 
 * Used Google Places API to find the first hotel for each city located within 5000 meters of that coordinates.
 
 * Plotted the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
-![hotelmap](VacationPy/HeatMap_screenshot/HeatMap_with_pins.png)
 
